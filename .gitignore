@@ -1,0 +1,108 @@
+# Laravel Framework
+/.phpunit.cache
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.env.local
+.env.testing
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+composer.local.json
+composer.local.lock
+npm-debug.log
+yarn-error.log
+
+# IDE and Editor files
+/.idea
+/.fleet
+/.vscode
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Cache and temporary files
+*.cache
+*.tmp
+*.temp
+/bootstrap/cache/*.php
+/storage/app/public/*
+!/storage/app/public/.gitkeep
+/storage/framework/cache/*
+!/storage/framework/cache/.gitkeep
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitkeep
+/storage/framework/views/*
+!/storage/framework/views/.gitkeep
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+# Build and compilation
+/public/build
+/public/mix-manifest.json
+/public/css/app.css
+/public/js/app.js
+dist/
+build/
+
+# Package managers
+package-lock.json
+yarn.lock
+composer.lock
+
+# Database
+*.sqlite
+*.sqlite3
+database.sqlite
+database.sqlite3
+
+# Backup files
+*.backup
+*.bak
+*.orig
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Laravel specific
+/public/storage
+/storage/app/public
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Testing
+coverage/
+.coverage
+.nyc_output
+.phpunit.result.cache
+
+# Deployment
+deploy.php
+.deployer/
+
+# Local development
+.vagrant/
+.homestead/
+
+
+
